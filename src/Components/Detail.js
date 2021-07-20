@@ -22,9 +22,6 @@ function Detail() {
         </Col>
 
         <Row>
-          <Col>
-            <img src={"."} height={300} width={250} />
-          </Col>
           <Col xs={9}>
             <div class="page-leftber content"></div>
             <div class="button">
@@ -68,63 +65,6 @@ function Detail() {
         {/* /.card */}
       </div>
 
-      <div class="grid">
-        <div class="page-footer content">
-          <h3 className="subtitle is-7"> </h3>
-        </div>
-        <div class="page-leftber content">
-          <img src={"./RMUTI_KORAT.png"} height={120} width={70} />
-          <img src={"./logo3.png"} height={120} width={70} />
-
-          <h3 className="subtitle is-7">หน้าแรก</h3>
-          <h3 className="subtitle is-7">งานวิจัย</h3>
-          <h3 className="subtitle is-7">พื้นที่งานวิจัย</h3>
-          <h3 className="subtitle is-7">ข้อมูลนักวิจัย</h3>
-          <h3 className="subtitle is-7">ข้อมูลนักวิจัย</h3>
-        </div>
-
-        <div class="page-main content">
-          <div>
-            <img src={"."} height={300} width={250} />
-
-            <div class="button">
-              <Button
-                variant="contained"
-                style={{ margin: "1px 1px 1px 1px", padding: "10px 45px" }}
-              >
-                ความเชี่ยวชาญ
-              </Button>
-              <Button
-                variant="contained"
-                style={{
-                  blackguard: "1px 1px 1px 1px",
-                  padding: "10px 45px",
-                }}
-              >
-                ความรู้
-              </Button>
-              <Button
-                variant="contained"
-                style={{ margin: "1px 1px 1px 1px", padding: "10px 45px" }}
-              >
-                รางวัล
-              </Button>
-              <Button
-                variant="contained"
-                style={{ margin: "1px 1px 1px 1px", padding: "10px 45px" }}
-              >
-                งานวิจัยร่วม
-              </Button>
-              <Button
-                variant="contained"
-                style={{ margin: "1px 1px 1px 1px", padding: "10px 45px" }}
-              >
-                ผู้ประสานงาน
-              </Button>
-            </div>
-          </div>
-        </div>
-      </div>
       <p></p>
     </div>
   );
