@@ -1,0 +1,11 @@
+@import "../../css/Vars";
+
+.map-view__container {
+    position: relative;
+}
+
+.map-view {
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+}
