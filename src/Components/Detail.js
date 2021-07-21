@@ -12,17 +12,27 @@ function Detail() {
     <div className="App">
       <div className="page-main content">
         <Row>
-          <Col>
-            <img src={"icon.png"} height={260} width={250} />
+          <Col xs={4}>
+            <img src={"22.jpg"} height={260} width={250} />
+          </Col>
+
+          <Col xs={6}>
+            <h3
+              className="subtitle is-7"
+              style={{ margin: "30px 30px 30px 30px" }}
+            >
+              {" "}
+              ชุมชนบ้านปราสาท
+            </h3>
+            <p>ตำบลระแงง อำเภอศรีขรภูมิ จังหวัดสุรินทร์</p>
           </Col>
         </Row>
-        <Col xs={9}>
-          <h3 className="subtitle is-7">ชุมชนบ้านปราสาท</h3>
-          <p>ตำบลระแงง อำเภอศรีขรภูมิ จังหวัดสุรินทร์</p>
-        </Col>
 
         <Row>
-          <Col xs={9}>
+          <Col>
+            <img src={"."} height={300} width={250} />
+          </Col>
+          <Col xs={8}>
             <div class="page-leftber content"></div>
             <div class="button">
               <Button
@@ -61,11 +71,7 @@ function Detail() {
             </div>
           </Col>
         </Row>
-
-        {/* /.card */}
       </div>
-
-      <p></p>
     </div>
   );
 }
